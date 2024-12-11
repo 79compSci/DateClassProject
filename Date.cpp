@@ -87,7 +87,7 @@ Date& Date::operator--() { // Prefix decrement
         day = daysInMonth(month, year);
     }
     return *this;
-}
+
 
 Date Date::operator--(int) { // Postfix decrement
     Date temp = *this;
